@@ -1,5 +1,4 @@
 <?php
-
 class Context
 {
     private $algoritm;
@@ -40,7 +39,7 @@ class Bubble implements Algoritm
                     $data[$j] = $data[$i];
                     $data[$i] = $temp;
                 }
-            }         
+            }
         }
 
         return $data;

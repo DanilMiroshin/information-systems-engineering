@@ -23,7 +23,7 @@ abstract class Middleware
 
 class UserExistsMiddleware extends Middleware
 {
-    private $server;
+    private Server $server;
 
     public function __construct(Server $server)
     {
